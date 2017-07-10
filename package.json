@@ -1,0 +1,23 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A Nodejs based weather application that interacts with Google Maps and Dark Sky",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sssmi/node-weather-app.git"
+  },
+  "author": "smi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sssmi/node-weather-app/issues"
+  },
+  "homepage": "https://github.com/sssmi/node-weather-app#readme",
+  "dependencies": {
+    "request": "^2.81.0",
+    "yargs": "^8.0.2"
+  }
+}
