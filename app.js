@@ -15,4 +15,7 @@ const argv = yargs
   .alias('help', 'h')
   .argv // takes all config here and stores to argv
 
-geocode.geocodeAddress(argv.address)
+geocode.geocodeAddress(argv.address,
+  (errorMessage) => console.log(errorMessage),
+  (results) => console.log(JSON.stringify(results, undefined, 2))
+)
