@@ -15,7 +15,7 @@ var geocodeAddress = (address, onError, onSuccess) => {
       onSuccess({
         address: body.results[0].formatted_address,
         latitude: body.results[0].geometry.location.lat,
-        lognitude: body.results[0].geometry.location.lng
+        longitude: body.results[0].geometry.location.lng
       })
     }
   })
